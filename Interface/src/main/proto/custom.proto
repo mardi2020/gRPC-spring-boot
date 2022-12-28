@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package custom;
+
+option java_multiple_files = true;
+
+
+service CustomService {
+  rpc SayHello (CustomRequest) returns (CustomResponse) {
+  }
+}
+
+message CustomRequest {
+  string name = 1;
+}
+
+message CustomResponse {
+  string message = 1;
+}
