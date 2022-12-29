@@ -1,9 +1,6 @@
 ### gRPC client
 
-#### 1. IDL jar 파일을 포함시킨다.
-jar 파일 경로: ./libs/
-```groovy
-    implementation files('libs/Interface-1.0-SNAPSHOT.jar')
+정
 ```
 
 #### 2. build.gradle에 gRPC 통신에 필요한 dependency 추가
